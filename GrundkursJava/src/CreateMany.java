@@ -25,9 +25,14 @@ public class CreateMany {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-//		final int anzahl = 5;
 		erzeugeDateien(args);
-				
+//		verschiebeDateien()
+
+	}	
+		
+  	public static void erzeugeDateien(String[] args){
+//		final int anzahl = 5;
+  						
 		try {
 			File[] filemany = new File[Integer.parseInt(args[2])];			// Integer.parseInt
 			
@@ -67,10 +72,6 @@ public class CreateMany {
 		} catch (Exception e){
 			System.out.println(e);
 		}
-		
-	}	
-		
-  	public static void erzeugeDateien(String[] args){
 		
   	}
 }
