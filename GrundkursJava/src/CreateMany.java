@@ -27,8 +27,8 @@ public class CreateMany {
 		
 		erzeugeDateien(args);
 
-		String source = 
-		Files.move(source, target);
+//		String source = 
+//		Files.move(source, target);
 		
 		
 //		Path quellDatei = Paths.get(dir.getParent() ).resolve()
