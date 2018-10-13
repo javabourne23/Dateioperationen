@@ -26,8 +26,23 @@ public class CreateMany {
 		// TODO Auto-generated method stub
 		
 		erzeugeDateien(args);
-//		verschiebeDateien()
 
+		String source = 
+		Files.move(source, target);
+		
+		
+//		Path quellDatei = Paths.get(dir.getParent() ).resolve()
+//		verschiebeDateien()						// diverse Optionen:		https://docs.oracle.com/javase/tutorial/essential/io/move.html
+
+/*	Sample move:
+ * 
+ * 	String filename = file+".jpg";
+	Path quellDatei = Paths.get( dir.getParent() ).resove( filename );
+	Path zielDatei = Paths.get( "C:/xampp/htdocs/wiki/pub/TreePad" ).resolve( datei ).resolve( filename );
+	Files.move( quellDatei, zielDatei );
+			
+*/		
+		
 	}	
 		
   	public static void erzeugeDateien(String[] args){
