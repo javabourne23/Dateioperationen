@@ -42,6 +42,10 @@ public class CreateMany {
 	Files.move( quellDatei, zielDatei );
 			
 */		
+
+/*
+	Neuer Kommentar?!   		GitKraken
+ */
 		
 	}	
 		
@@ -83,7 +87,7 @@ public class CreateMany {
 				System.out.println(dirList[i]);
 			}
 		} catch (ArrayIndexOutOfBoundsException e){
-			System.out.println("Aufruf erfolgt über: java CreateMany <Verzeichnisname> <Dateiname>");
+			System.out.println("Aufruf erfolgt ï¿½ber: java CreateMany <Verzeichnisname> <Dateiname>");
 		} catch (Exception e){
 			System.out.println(e);
 		}
